@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday princess❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Loading -->
+
+<div id="loading">
+
+<div class="loader"></div>
+
+<h2>A Special Gift For You ❤️</h2>
+
+</div>
+
+<!-- Background -->
+
+<div id="stars"></div>
+
+<div id="hearts"></div>
+
+<div id="petals"></div>
+
+<canvas id="fireworks"></canvas>
+
+<canvas id="confetti"></canvas>
+
+<!-- Musik -->
+
+<audio id="music" loop>
+
+<source src="original sound - leovybz.inf_musicaldown.com_1782973799.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- Intro -->
+
+<section id="intro">
+
+<video autoplay muted playsinline id="introVideo">
+
+<source src="lv_740130226326...626071131.mp4" type="video/mp4">
+
+</video>
+
+<div class="overlay">
+
+<h1>Happy Birthday ❤️</h1>
+
+<h2>princess</h2>
+
+<p>
+
+Selamat datang di hadiah kecil yang aku buat khusus untukmu.
+
+</p>
+
+<button id="startBtn">
+
+Buka Hadiah 🎁
+
+</button>
+
+</div>
+
+</section>
+
+<!-- Hero -->
+
+<section class="hero hidden">
+
+<h1>
+
+Happy Birthday My Princess ❤️
+
+</h1>
+
+<p>
+
+Hari ini bukan sekadar hari ulang tahunmu.
+
+Hari ini adalah hari di mana seorang wanita cengeng lahir kedunia😚.
+
+</p>
+
+</section>
+
+<!-- Countdown -->
+
+<section class="countdown hidden">
+
+<h2>Countdown</h2>
+
+<div class="timer">
+
+<div>
+
+<span id="days">00</span>
+
+<p>Hari</p>
+
+</div>
+
+<div>
+
+<span id="hours">00</span>
+
+<p>Jam</p>
+
+</div>
+
+<div>
+
+<span id="minutes">00</span>
+
+<p>Menit</p>
+
+</div>
+
+<div>
+
+<span id="seconds">00</span>
+
+<p>Detik</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Galeri -->
+
+<section class="gallery hidden">
+
+<h1>
+
+liat orang cengeng ❤️
+
+</h1>
+
+<div class="slider">
+
+<img src="IMG-20260330-WA0028.jpg">
+
+<img src="IMG-20260328-WA0029.jpg">
+
+<img src="IMG-20260328-WA0025.jpg">
+
+<img src="IMG-20260327-WA0112.jpg">
+
+<img src="IMG-20260601-WA0059.jpg">
+
+<img src="IMG-20260607-WA0032.jpg">
+
+<video controls>
+
+<source src="7c9cd04c378b43a6969e4067ff56d089.mp4" type="video/mp4">
+
+</video>
+</div>
+
+</section>
+
+<!-- Quotes -->
+
+<section class="quotes hidden">
+
+<h1>💖 Kata Untukmu 💖</h1>
+
+<div class="quote-box">
+
+<p id="quoteText">
+
+"Setiap hari bersamamu adalah hadiah terindah dalam hidupku
+walaupun sering brantem sih."
+
+</p>
+
+</div>
+
+</section>
+
+<!-- Memory Timeline -->
+
+<section class="timeline hidden">
+
+<h1>📖 Perjalanan Kita</h1>
+
+<div class="timeline-item">
+
+<h2>💞 Pertama Kenal</h2>
+
+<p>
+
+awal kita kenal emang agak beda ya, maaf waktu itu marahin kamu
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h2>🌹 pertama kali akrab </h2>
+
+<p>
+
+heran jugaa ya kita akrab gara' salah orang
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h2>❤️ Menjadi Pasangan</h2>
+
+<p>
+
+siapa yang nembak yakk, gatau aku wkwk.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+<h2>✨ Harapanku</h2>
+
+<p>
+
+harapanku sihhhh eeeeee apa yakk, hehe, harapanku 
+kamu tetep bahagia
+
+</p>
+
+</div>
+
+</section>
+
+<!-- Surat -->
+
+<section class="letter hidden">
+
+<h1>💌 Surat Untukmu</h1>
+
+<div class="letter-card">
+
+<p id="typing"></p>
+
+</div>
+
+</section>
+
+<!-- Wish -->
+
+<section class="wish hidden">
+
+<h1>🌠 Make A Wish 🌠</h1>
+
+<p>
+
+Tutup mata sebentar...
+
+Pikirkan satu harapanmu...
+
+Lalu tiup lilinnya. 🎂
+
+</p>
+
+</section>
+
+<!-- Cake -->
+
+<section class="cake hidden">
+
+<div id="cakeEmoji">
+
+🕯️🕯️🕯️
+
+<br><br>
+
+🎂
+
+</div>
+
+<button id="blowBtn">
+
+🎂 Tiup Lilin
+
+</button>
+
+</section>
+
+<!-- Ending -->
+
+<section class="ending hidden">
+
+<h1>
+
+❤️ Happy Birthday ❤️
+
+</h1>
+
+<h2>
+
+princess 
+
+</h2>
+
+<p>
+
+Terima kasih sudah hadir di hidupku.
+
+Terima kasih sudah bertahan sejauh ini.
+
+Semoga semua impianmu tercapai.
+
+Semoga senyummu tidak pernah hilang.
+
+Dan semoga aku masih boleh menjadi bagian dari kebahagiaanmu.
+
+I Love You Forever ❤️
+
+</p>
+
+<button id="loveBtn">
+
+I LOVE YOU ❤️
+
+</button>
+
+</section>
+
+<footer>
+
+Made with ❤️ by kribo
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+  </html>
+  
